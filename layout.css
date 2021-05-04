@@ -1,0 +1,26 @@
+/*
+Taken from: https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js
+*/
+
+.container {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.col {
+    flex: 1;
+}
+
+.text-left {
+    text-align: left;
+}
